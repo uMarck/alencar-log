@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgba(0, 255, 72, 0.134);
+  box-shadow: 0 8px 32px 0 rgba(0, 248, 25, 0.226);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+}
+header #logo img {
+  width: 150px;
+  filter: drop-shadow(0.1px 0.1px 1px black);
+}
+header #menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "montserrat", "poppins";
+  padding-left: 2.5rem;
+}
+header #rede a {
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+}
+header #rede a img {
+  transition: 0.2s;
+}
+header #rede a img:hover {
+  transform: scale(1.15);
+}
+
+.container-1 {
+  background: linear-gradient(to left, transparent 1%, #000000 96%), url(../img/SCANIA.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container-1 #txt {
+  padding-top: 25rem;
+  padding-left: 5rem;
+  font-family: "montserrat", "poppins";
+  line-height: 50px;
+  color: white;
+}
+.container-1 #txt h1 {
+  font-size: 95px;
+}
+.container-1 #txt h2 {
+  font-size: 45px;
+  filter: drop-shadow(19px -15px 15px black);
+}
+.container-1 .link {
+  width: 100%;
+  font-family: "montserrat", "poppins";
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+.container-1 .link a {
+  text-decoration: none;
+  color: white;
+  background-color: grey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+  font-weight: 0;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+.container-1 .link a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  outline: 2px solid grey;
+}
+
+.container-2 {
+  height: 100vh;
+  font-family: "montserrat", "poppins";
+  padding: 5rem;
+  background: url(../img/ft.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-2 #txt {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: right;
+  margin: auto;
+  color: white;
+  width: 100%;
+}
+.container-2 #qs h1 {
+  font-size: 120px;
+  padding-top: 10rem;
+}
+.container-2 #bar {
+  height: 10px;
+  width: 10px;
+  background: green;
+  width: 48%;
+}
+.container-2 #sobre {
+  width: 95%;
+}
+.container-2 #sobre p {
+  width: 100%;
+  margin: auto;
+  padding-top: 3rem;
+  padding-left: 54rem;
+  padding-bottom: 3rem;
+  text-align: right;
+}
+.container-2 #link a {
+  outline: 2px solid transparent;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  background-color: green;
+  padding: 1rem 5rem 1rem 5rem;
+  transition: 0.2s;
+  font-weight: 0;
+}
+.container-2 #link a:hover {
+  outline: 2px solid rgb(0, 110, 254);
+  font-weight: bold;
+}
+
+.container-3 {
+  max-height: 100%;
+  text-align: center;
+  font-family: "montserrat", "poppins";
+}
+.container-3 #bar {
+  height: 5px;
+  width: 250px;
+  background-color: green;
+  margin: auto;
+  padding-top: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.container-3 #cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  margin: 0.3rem;
+  height: 75vh;
+}
+.container-3 #cards #card img {
+  max-width: 950%;
+  border-radius: 25px;
+  transition: 0.2s;
+  margin-bottom: 2rem;
+  filter: drop-shadow(1px 5px 0.2px rgba(254, 254, 254, 0));
+}
+.container-3 #cards #card img:hover {
+  filter: drop-shadow(1px 5px 0.2px black);
+  transform: scale(1.01);
+}
+.container-3 #cards #card p {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+}
+.container-3 #link {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.container-3 #link img {
+  width: 30px;
+  margin-right: 0.5rem;
+  filter: invert(1);
+  transition: 0.2s;
+}
+.container-3 #link img:hover {
+  transform: translateX(5px);
+}
+.container-3 #link a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 15%;
+  background-color: green;
+  text-align: center;
+  margin: auto;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */
