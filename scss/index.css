@@ -6,11 +6,10 @@
 }
 
 header {
-  background: rgba(0, 255, 72, 0.134);
-  box-shadow: 0 8px 32px 0 rgba(0, 248, 25, 0.226);
+  background: rgba(246, 246, 246, 0.342);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -23,13 +22,14 @@ header {
 }
 header #logo img {
   width: 150px;
-  filter: drop-shadow(0.1px 0.1px 1px black);
+  filter: drop-shadow(0.1px 0.1px 1px black), invert(1);
 }
 header #menu a {
   text-decoration: none;
   color: white;
   font-family: "montserrat", "poppins";
   padding-left: 2.5rem;
+  filter: drop-shadow(1px 1px 5px black);
 }
 header #rede a {
   text-decoration: none;
@@ -241,4 +241,159 @@ header #rede a img:hover {
 }
 .container-4 #cards img {
   width: 450px;
+}
+
+@media screen and (max-width: 1920px) {
+  .container-1 {
+    height: 100vh;
+  }
+  .container-1 #txt {
+    padding-top: 20rem;
+  }
+  .container-2 {
+    height: 100vh;
+    width: 100%;
+  }
+  .container-2 #txt {
+    padding-top: 1rem;
+  }
+  .container-2 #txt #qs h1 {
+    font-size: 55px;
+    padding-top: 5rem;
+  }
+  .container-2 #txt #bar {
+    width: 380px;
+  }
+  .container-2 #txt #sobre {
+    width: 100%;
+  }
+  .container-2 #txt #sobre p {
+    padding-left: 45rem;
+  }
+  .container-3 #cards {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .container-3 #cards #card img {
+    height: 400px;
+  }
+  .container-3 #cards #card p {
+    width: 450px;
+  }
+  .container-4 {
+    margin: auto;
+  }
+  .container-4 h1 {
+    max-width: 35%;
+    margin-bottom: 2.5rem;
+  }
+  .container-4 #cards {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+  }
+  .container-4 #cards #card {
+    padding-top: 5rem;
+  }
+  .container-4 #cards #card img {
+    width: 250px;
+  }
+  .container-5 {
+    height: 50vh;
+    background-color: #61ce70;
+    font-family: "montserrat", "poppins";
+    padding: 2rem;
+    text-align: left;
+    color: white;
+  }
+  .container-5 h1 {
+    font-size: 35px;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  .container-5 #txt {
+    width: 95%;
+  }
+  .container-5 #link {
+    margin-top: 1.5rem;
+    width: 20%;
+  }
+  .container-5 #link a {
+    text-decoration: none;
+  }
+  .container-5 #link a p {
+    background-color: rgb(2, 194, 22);
+    padding: 0.5rem;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    filter: drop-shadow(0.5px 0.5px 0.5px black);
+    outline: 0.5px solid rgb(94, 94, 247);
+  }
+  .container-5 #link a p:hover {
+    font-weight: 900;
+    outline: 2px solid blue;
+    background-color: green;
+    filter: drop-shadow(1px 21px 15px rgba(0, 0, 0, 0.473));
+  }
+  footer #tudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  footer #tudo #logo img {
+    width: 150px;
+    transition: 0.2s;
+  }
+  footer #tudo #logo img:hover {
+    transform: scale(1.09);
+    filter: drop-shadow(0.5px 1px 25px black);
+  }
+  footer #tudo #info {
+    color: black;
+    font-family: "montserrat", "poppins";
+    padding: 1.5rem;
+  }
+  footer #tudo #info #ender {
+    padding-top: 1.5rem;
+    width: 55%;
+  }
+  footer #tudo #info #tel {
+    padding-top: 1.5rem;
+  }
+  footer #tudo #info #redes {
+    padding-top: 1.5rem;
+  }
+  footer #tudo #info #redes a {
+    text-decoration: none;
+    color: white;
+    padding-right: 1.5rem;
+  }
+  footer #tudo #mapa {
+    padding: 1rem;
+  }
+  #dir {
+    text-align: center;
+    background-color: #61ce70;
+    color: black;
+    font-family: "montserrat", "poppins";
+    margin: auto;
+    padding: 1rem;
+  }
+  #dir p {
+    background-color: rgba(43, 73, 226, 0.468);
+    color: white;
+    font-weight: bold;
+    width: 43%;
+    margin: auto;
+  }
 }/*# sourceMappingURL=index.css.map */
