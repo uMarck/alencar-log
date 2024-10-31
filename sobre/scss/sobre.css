@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1920px) {
+  header {
+    background: rgba(246, 246, 246, 0.342);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+  }
+  header #logo img {
+    width: 150px;
+    filter: drop-shadow(0.1px 0.1px 1px black), invert(1);
+  }
+  header #menu a {
+    text-decoration: none;
+    color: white;
+    font-family: "montserrat", "poppins";
+    padding-left: 2.5rem;
+    filter: drop-shadow(1px 1px 5px black);
+  }
+  header #rede a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+  }
+  header #rede a img {
+    transition: 0.2s;
+  }
+  header #rede a img:hover {
+    transform: scale(1.15);
+  }
+  .container-1 {
+    font-family: "montserrat", "poppins";
+    background-color: green;
+    padding: 2.5rem;
+    color: white;
+  }
+  .container-1 #bar {
+    height: 5px;
+    border: 5px solid darkblue;
+    width: 30%;
+    margin: auto;
+  }
+  .container-1 h2 {
+    font-size: 45px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 1.2rem;
+  }
+  .container-1 #txt {
+    padding-top: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+  }
+  .container-2 {
+    background-color: #f3f7ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    align-items: center;
+    font-family: "montserrat", "poppins";
+    padding: 5rem;
+    width: 100%;
+    font-weight: 600;
+    height: 100vh;
+  }
+  .container-2 #esq h1 {
+    padding-top: 3.5rem;
+    padding-bottom: 0.2rem;
+    color: green;
+  }
+  .container-2 #nmi p, .container-2 #vs p, .container-2 #vl p {
+    padding-top: 0.5rem;
+    width: 65%;
+  }
+  .container-2 #bar {
+    height: 3px;
+    background-color: darkblue;
+    width: 35%;
+  }
+  .container-2 #dir {
+    width: 100%;
+    padding-left: 3rem;
+  }
+  .container-2 #dir p {
+    padding-top: 1rem;
+  }
+}/*# sourceMappingURL=sobre.css.map */
