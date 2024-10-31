@@ -54,14 +54,14 @@ header #rede a img:hover {
   padding-top: 25rem;
   padding-left: 5rem;
   font-family: "montserrat", "poppins";
-  line-height: 50px;
+  line-height: 55px;
   color: white;
 }
 .container-1 #txt h1 {
-  font-size: 95px;
+  font-size: 100px;
 }
 .container-1 #txt h2 {
-  font-size: 45px;
+  font-size: 50px;
   filter: drop-shadow(19px -15px 15px black);
 }
 .container-1 .link {
@@ -165,7 +165,7 @@ header #rede a img:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: 3.5rem;
   margin: 0.3rem;
   height: 75vh;
 }
@@ -187,7 +187,7 @@ header #rede a img:hover {
   font-weight: 600;
 }
 .container-3 #link {
-  margin-top: 1.5rem;
+  margin-top: 2.9rem;
   margin-bottom: 0.5rem;
   cursor: pointer;
 }
@@ -243,7 +243,107 @@ header #rede a img:hover {
   width: 450px;
 }
 
-@media screen and (max-width: 1920px) {
+.container-5 {
+  height: 55vh;
+  background-color: #61ce70;
+  font-family: "montserrat", "poppins";
+  padding: 2rem;
+  text-align: left;
+  color: white;
+}
+.container-5 h1 {
+  font-size: 45px;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+.container-5 #txt {
+  width: 95%;
+  font-size: 25px;
+  font-weight: 600;
+}
+.container-5 #link {
+  margin-top: 1.5rem;
+  width: 33%;
+}
+.container-5 #link a {
+  text-decoration: none;
+  margin: auto;
+}
+.container-5 #link a p {
+  margin: auto;
+  background-color: rgb(2, 194, 22);
+  padding: 1.5rem;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+  filter: drop-shadow(0.5px 0.5px 0.5px black);
+  outline: 0.5px solid rgb(94, 94, 247);
+}
+.container-5 #link a p:hover {
+  font-weight: 900;
+  outline: 2px solid blue;
+  background-color: green;
+  filter: drop-shadow(1px 21px 15px rgba(0, 0, 0, 0.473));
+}
+
+footer #tudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
+footer #tudo #logo img {
+  width: 150px;
+  transition: 0.2s;
+}
+footer #tudo #logo img:hover {
+  transform: scale(1.09);
+  filter: drop-shadow(0.5px 1px 25px black);
+}
+footer #tudo #info {
+  color: black;
+  font-family: "montserrat", "poppins";
+  padding: 1.5rem;
+}
+footer #tudo #info #ender {
+  padding-top: 1.5rem;
+  width: 55%;
+}
+footer #tudo #info #tel {
+  padding-top: 1.5rem;
+}
+footer #tudo #info #redes {
+  padding-top: 1.5rem;
+}
+footer #tudo #info #redes a {
+  text-decoration: none;
+  color: white;
+  padding-right: 1.5rem;
+}
+footer #tudo #mapa {
+  padding: 1rem;
+}
+
+#dir {
+  text-align: center;
+  background-color: #61ce70;
+  color: black;
+  font-family: "montserrat", "poppins";
+  margin: auto;
+  padding: 1rem;
+}
+#dir p {
+  background-color: rgba(43, 73, 226, 0.468);
+  color: white;
+  font-weight: bold;
+  width: 43%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1910px) {
   .container-1 {
     height: 100vh;
   }
