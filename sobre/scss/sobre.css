@@ -108,4 +108,46 @@
   .container-2 #dir p {
     padding-top: 1rem;
   }
+  .container-3 {
+    font-family: "montserrat", "poppins";
+    height: 80vh;
+    color: black;
+  }
+  .container-3 #tudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(2, 87, 1);
+    width: 100%;
+    height: 80vh;
+  }
+  .container-3 #tudo #esq {
+    width: 50%;
+  }
+  .container-3 #tudo #esq h1 {
+    color: white;
+    padding-bottom: 0.5rem;
+  }
+  .container-3 #tudo #esq #bar {
+    background-color: rgb(0, 0, 255);
+    height: 5px;
+    width: 22%;
+    margin-bottom: 0.5rem;
+  }
+  .container-3 #tudo #esq p {
+    color: white;
+    font-weight: 600;
+    width: 85%;
+  }
+  .container-3 #tudo #info {
+    padding-top: 2rem;
+  }
+  .container-3 #tudo #info p {
+    line-height: 35px;
+  }
+  .container-3 #tudo #c img {
+    width: 500px;
+    border-radius: 25px;
+  }
 }/*# sourceMappingURL=sobre.css.map */
